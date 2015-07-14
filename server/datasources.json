@@ -4,10 +4,10 @@
     "connector": "memory"
   },
   "mongoDBDS": {
-    "name": "mongoDBDS",
-    "connector": "mongodb",
     "host": "localhost",
     "port": 27017,
-    "database": "loopback-example"
+    "database": "loopback-example",
+    "name": "mongoDBDS",
+    "connector": "mongodb"
   }
 }
